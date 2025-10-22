@@ -17,6 +17,12 @@ header {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
 nav ul li a {
   color: white;
@@ -34,7 +40,7 @@ article {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 aside {
-  background: #e2e2e2;
+  background: #ffffff;
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
@@ -48,6 +54,13 @@ footer {
   bottom: 0;
   width: 100%;
 }
-#navbar {
-  display: inline;
+header,
+nav,
+main,
+section,
+article,
+aside {
+  border: 2px solid #333;
+  margin: 20px;
+  padding: 15px;
 }
